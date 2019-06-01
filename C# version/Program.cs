@@ -17,7 +17,7 @@ namespace DataStructures
             {
                 Console.Write(array[i] + " ");
             }
-        Console.WriteLine(array.Length - 1);
+            Console.WriteLine(array.Length - 1);
         }
     }
 }
