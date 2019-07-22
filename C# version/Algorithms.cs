@@ -33,7 +33,7 @@ namespace DataStructures
         // Time complexity: Best case: sorted array [O(n)] - Worst case: reversed array [O(n^2)].
         public static void InsertionSort(int[] array)
         {
-            for (var i = 1; i < array.Length; i++) // begin with second character
+            for (var i = 1; i < array.Length; i++) // begin with second item
             {
                 var current = array[i];
                 while (i > 0 && array[i - 1] > current)
