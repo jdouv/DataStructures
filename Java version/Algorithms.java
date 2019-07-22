@@ -26,7 +26,7 @@ class Algorithms {
     // Insertion sort: Consider one element at a time and place this element in the correct order relative to those before it.
     // Time complexity: Best case: sorted array [O(n)] - Worst case: reversed array [O(n^2)].
     static void insertionSort(int[] array) {
-        for (int i = 1; i < array.length; i++) { // begin with second character
+        for (int i = 1; i < array.length; i++) { // begin with second item
             int current = array[i];
             while (i > 0 && array[i - 1] > current) {
                 array[i] = array[i - 1]; // move array[i - 1] rightwards
