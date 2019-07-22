@@ -21,7 +21,7 @@ def bubble_sort(array):
 # it.
 # Time complexity: Best case: sorted array [O(n)] - Worst case: reversed array [O(n^2)].
 def insertion_sort(array):
-    for i in range(1, len(array)):  # begin with second character
+    for i in range(1, len(array)):  # begin with second item
         current = array[i]
         while i > 0 and array[i - 1] > current:
             array[i] = array[i - 1]  # move array[i - 1] rightwards
